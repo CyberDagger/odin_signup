@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Norse Bold";
+    src: url(./fonts/Norse-Bold.otf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    background-color: lightblue;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.decoration {
+    height: 100%;
+    flex: 3;
+    background-color: darkblue;
+    background-image: url(./images/gary-scott-YvRTYzkT6Hs-unsplash.jpg);
+    background-position: center;
+    background-size: auto 130%;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Norse Bold";
+    font-size: 5rem;
+    padding: 0.5rem;
+    background-color: rgba(0,0,0,45%);
+    margin-top: 25vh;
+}
+
+.logo img {
+    width: 20%;
+}
+
+.logo span {
+
+}
+
+.decoration footer {
+    padding: 0.5rem;
+}
+
+.content {
+    flex: 7;
+}
