@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
     <title>Sign-Up Form</title>
 </head>
@@ -15,14 +16,14 @@
         <footer>Photo</footer>
     </div>
     <div class="content">
-        <section>
+        <section class="intro">
             <p>This is not a real online service! You know you need something like this in your life to help you realize your depest dreams. Sign up <em>now</em> to get started.</p>
             <p>You <em>know</em> you want to.</p>
         </section>
         <section>
             <form action="">
                 <div class="fields">
-                    <h2>Let's do this!</h2>
+                    <p>Let's do this!</p>
                     <fieldset>
                         <div class="data">
                             <label for="first-name">First name</label>
@@ -50,8 +51,10 @@
                         </div>
                     </fieldset>
                 </div>
-                <button type="submit">Create Account</button>
-                <p>Already have an account? <a href="">Log in</a></p>
+                <div class="confirm">
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account? <a href="">Log in</a></p>
+                </div>
             </form>
         </section>
     </div>
